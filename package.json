@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "next",
+    "dev": "node api.js && next",
     "build": "next build",
-    "start": "next start"
+    "start": "node api.js && next start"
   },
   "keywords": [],
   "author": "",
